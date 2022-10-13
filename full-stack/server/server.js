@@ -1,8 +1,11 @@
 // La parola require mi permette di usare una libreria che ho installato
 const express = require('express') // Usiamo express
+const cors = require('cors');
 
 const app = express()
 const port = 3000
+
+app.use(cors());
 
 app.get('/', (req, res) => {
   res.send('Benvenuto, puoi chiamare le rotte /hello e /pippo')
