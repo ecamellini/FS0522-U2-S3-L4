@@ -1,0 +1,7 @@
+{ "pippo": "asdasdsa", "proprieta1": "pippo", "proprieta2": 123, "esempioDiBoolean": true, "unAltroOggetto": {
+    "unaltraproprieta": null
+  },
+  "listaDiAnimali": [
+    "Gatto", "Cane", "Lucertola"
+  ]
+}
